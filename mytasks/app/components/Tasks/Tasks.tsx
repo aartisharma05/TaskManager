@@ -25,7 +25,7 @@ function Tasks({ title, tasks }: Props) {
       </button>
 
       <div className="tasks grid">
-        {tasks.map((task) => (
+        {/* {tasks.map((task) => (
           <TaskItem
             key={task.id}
             title={task.title}
@@ -34,7 +34,7 @@ function Tasks({ title, tasks }: Props) {
             isCompleted={task.isCompleted}
             id={task.id}
           />
-        ))}
+        ))} */}
         <button className="create-task" onClick={openModal}>
           {add}
           Add New Task
